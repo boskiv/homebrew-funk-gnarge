@@ -1,7 +1,7 @@
 class Tf < Formula
   homepage "https://github.com/mickep76/tf"
-  url "https://github.com/mickep76/tf/archive/1.0.tar.gz"
-  sha256 "e6f3e678ebce7da6bd83bbae50037f2f394a3f2e926110dda78505d70a6b695a"
+  url "https://github.com/mickep76/tf/archive/1.1.tar.gz"
+  sha256 "96c728c97759d5f7a15dae32975ce52a06385a1794edb5fc0a6de5193d0fcb04"
 
   depends_on "go" => :build
 
