@@ -1,7 +1,7 @@
 class EtcdExport < Formula
   homepage "https://github.com/mickep76/etcd-export"
-  url "https://github.com/mickep76/etcd-export/archive/0.3-1.tar.gz"
-  sha256 "81fe8d244b0400ff85b3e2de60c206b4a3092a4ecd51342f8e5a288c6e808e02"
+  url "https://github.com/mickep76/etcd-export/archive/0.4.tar.gz"
+  sha256 "e2b4c3be25457fd963db8de8d9ae58df0b41e4359cbc7be280c7a6d6701725d6"
 
   depends_on "go" => :build
 
@@ -9,9 +9,11 @@ class EtcdExport < Formula
     ENV["GOPATH"] = buildpath
     system "./build"
     bin.install "bin/etcd-export"
+    bin.install "bin/etcd-import"
   end
 
   test do
     system "#{bin}/etcd-export", "--version"
+    system "#{bin}/etcd-import", "--version"
   end
 end
