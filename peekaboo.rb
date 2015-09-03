@@ -10,9 +10,8 @@ class Peekaboo < Formula
     ENV["GOPATH"] = buildpath
     system "./build"
     bin.install "bin/peekaboo"
-    var.mkpath
-    (var/"peekaboo"/version).mkdir
-    (var/"peekaboo"/version).install "src/github.com/mickep76/peekaboo/static", "src/github.com/mickep76/peekaboo/templates"
+    (var/"peekaboo").mkdir
+    (var/"peekaboo").install "src/github.com/mickep76/peekaboo/static", "src/github.com/mickep76/peekaboo/templates"
   end
 
   test do
