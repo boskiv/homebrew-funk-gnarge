@@ -8,7 +8,7 @@ class Peekaboo < Formula
   def install
     ENV["GOPATH"] = buildpath
     system "./build"
-    bin.install "bin/peekaboo"
+    system "./install"
   end
 
   test do
