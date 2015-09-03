@@ -1,7 +1,7 @@
 class Peekaboo < Formula
   homepage "https://github.com/mickep76/peekaboo"
-  url "https://github.com/mickep76/peekaboo/archive/0.2.tar.gz"
-  sha256 "026bc507f059c22ba3689f2a21954af9d8ea833bb6fe2b0b083319eef9f82c64"
+  url "https://github.com/mickep76/peekaboo/archive/0.2.1.tar.gz"
+  sha256 "ba448e64186b7fadbbeccc602f6bd667083d9d7a"
 
   depends_on "go" => :build
 
