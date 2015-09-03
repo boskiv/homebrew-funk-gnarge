@@ -9,6 +9,7 @@ class Tf < Formula
     ENV["GOPATH"] = buildpath
     system "./build"
     bin.install "bin/tf"
+    var.install ""
   end
 
   test do
