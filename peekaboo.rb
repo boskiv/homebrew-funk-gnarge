@@ -8,7 +8,7 @@ class Peekaboo < Formula
   def install
     ENV["GOPATH"] = buildpath
     system "./build"
-    system "./install"
+    bin.install "bin/etcd-import"
   end
 
   test do
