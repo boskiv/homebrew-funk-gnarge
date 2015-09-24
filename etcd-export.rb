@@ -13,6 +13,7 @@ class EtcdExport < Formula
     bin.install "bin/etcd-import"
     bin.install "bin/etcd-delete"
     bin.install "bin/etcd-validate"
+    bin.install "bin/etcd-tree"
   end
 
   test do
@@ -20,5 +21,6 @@ class EtcdExport < Formula
     system "#{bin}/etcd-import", "--version"
     system "#{bin}/etcd-delete", "--version"
     system "#{bin}/etcd-validate", "--version"
+    system "#{bin}/etcd-tree", "--version"
   end
 end
