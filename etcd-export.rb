@@ -1,7 +1,8 @@
 class EtcdExport < Formula
+  version "1.5"
+  sha256 "3de03279aad811c1b8ebc6db940c221afa71b8e048dff0139bf440fc840d3e24"
   homepage "https://github.com/mickep76/etcd-export"
-  url "https://github.com/mickep76/etcd-export/archive/1.3.tar.gz"
-  sha256 "a6b46a071d9db7098e23b5a30ee7ada3f0ee201062fb06289c522a2772116dee"
+  url "https://github.com/mickep76/etcd-export/archive/#{version}.tar.gz"
 
   depends_on "go" => :build
 
