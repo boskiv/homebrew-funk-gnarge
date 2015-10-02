@@ -1,8 +1,8 @@
 class Peekaboo < Formula
   version "0.2.1"
   sha256 "3ad8d25fafbbb730509b49bef94be4994d58c4725efd0189eab3cf959e6a3324"
-  homepage "https://github.com/mickep76/peekaboo"
-  url "https://github.com/mickep76/peekaboo/archive/#{version}.tar.gz"
+  homepage "https://github.com/imc-trading/peekaboo"
+  url "https://github.com/imc-trading/peekaboo/archive/#{version}.tar.gz"
 
   depends_on "go" => :build
 
@@ -10,7 +10,7 @@ class Peekaboo < Formula
     ENV["GOPATH"] = buildpath
     system "./build"
     bin.install "bin/peekaboo"
-    (prefix/"peekaboo").install "src/github.com/mickep76/peekaboo/static", "src/github.com/mickep76/peekaboo/templates"
+    (prefix/"peekaboo").install "src/github.com/imc-trading/peekaboo/static", "src/github.com/imc-trading/peekaboo/templates"
   end
 
   def plist; <<-EOS.undent
