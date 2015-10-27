@@ -1,6 +1,6 @@
 class EtcdExport < Formula
-  version "2.3.2"
-  sha256 "beb5e99317b0026dbbc77cca26c314ed32132746038d11ee46633aec93721298"
+  version "2.4"
+  sha256 "3be0d9191b801f46ab47cc48eea492e1a82aab67bf45585d2e423dca461721a9"
   homepage "https://github.com/mickep76/etcd-export"
   url "https://github.com/mickep76/etcd-export/archive/#{version}.tar.gz"
 
