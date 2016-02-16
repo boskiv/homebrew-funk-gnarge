@@ -1,6 +1,6 @@
 class Etcdtool < Formula
-  version "3.1"
-  sha256 "c111c82f3a6f2cc80795be36ef4362084098974b3b31710e9f12f0b4d05781ad"
+  version "3.2"
+  sha256 "a4490645150607d200e4670870c9f0a3581fd54665c92de1776e25d207dfaee3"
   homepage "https://github.com/mickep76/etcdtool"
   url "https://github.com/mickep76/etcdtool/archive/#{version}.tar.gz"
 
