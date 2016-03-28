@@ -1,6 +1,6 @@
 class Peekaboo < Formula
-  version "0.2.3"
-  sha256 "c9e2f304122ce66440c9bb9b0116374d269bc1813c2d3471c96cf1424f55cfcb"
+  version "0.5"
+  sha256 "2dfbd212cb723507af80283694823fa9c851eecbbddaac1dfba2c48554d0e3eb"
   homepage "https://github.com/imc-trading/peekaboo"
   url "https://github.com/imc-trading/peekaboo/archive/#{version}.tar.gz"
 
