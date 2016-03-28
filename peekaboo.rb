@@ -10,7 +10,7 @@ class Peekaboo < Formula
     ENV["GOPATH"] = buildpath
     system "./build"
     bin.install "bin/peekaboo"
-    (prefix/"peekaboo").install "src/github.com/imc-trading/peekaboo/static"
+    (prefix/"peekaboo").install "static"
   end
 
   def plist; <<-EOS.undent
