@@ -1,6 +1,6 @@
 class Jtree < Formula
-  version "0.9.1"
-  sha256 "5243a1677ec4a204035712d6ac42a1372ff07a12398ad27e6cad44586411d771"
+  version "0.9.2"
+  sha256 "79c79af7af3e4d43f45846c5c4367360fa456eb57a595decec81a94b91d02d90"
   homepage "https://github.com/mickep76/jtree"
   url "https://github.com/mickep76/jtree/archive/#{version}.tar.gz"
 
